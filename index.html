@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Ashley Pemble
+Index.html
+09/20/24
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header section with image -->
+    <header>
+        <img src="sixteen-miles-out-A80dxPQunKs-unsplash.jpg" alt="Header Image" class="header-image">
+    </header>
+    
+    <!-- Full-width horizontal navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content area with three columns side by side -->
+    <main>
+        <section class="column" id="about">
+            <h2>Ashley Pemble</h2>
+            <img src="michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="Photo of Ashley" class="profile-photo">
+            <p>Hi, I'm Ashley, a passionate web developer in training. I love creating websites, solving coding problems, and constantly learning new technologies.</p>
+        </section>
+
+        <section class="column" id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        
+        <section class="column" id="why-choose">
+            <h2>Why Choose Me?</h2>
+            <p>With a passion for clean design and effective user experience, I bring dedication and creativity to every project. I work closely with clients to ensure their vision is brought to life.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ashley | Web Developer in Training</p>
+    </footer>
+</body>
+</html>

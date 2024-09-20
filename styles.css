@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #550303;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-image {
+    width: 100%; 
+    height: auto; 
+    max-height: 50vh; 
+    object-fit: cover;
+}
+
+
+nav {
+    background-color: #8e6003;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #550303;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    width: 30%;
+    padding: 20px;
+    background-color: #8e6003;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #550303;
+}
+
+#about {
+    background-color: #8e6003;
+    color: #550303;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #8e6003; /* Form background color */
+    padding: 20px;
+    border-radius: 10px;
+    color: #550303; /* Text color (Evergreen) */
+}
+
+label {
+    margin-top: 10px;
+    color: #550303; /* Evergreen color for labels */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #550303; /* Border matches the evergreen color */
+    font-size: 16px;
+    color: #550303; /* Evergreen text in input fields */
+    background-color: #fff; /* White background for input fields */
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #550303; /* Evergreen color for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #011e18; /* Slightly darker evergreen on hover */
+}
+
+#why-choose {
+    background-color: #8e6003; 
+    color: #550303;
+    text-anchor: middle;
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #8e6003;
+    color: #550303;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
