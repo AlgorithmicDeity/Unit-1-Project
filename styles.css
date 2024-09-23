@@ -58,6 +58,10 @@ main {
 }
 
 .column {
+    display: flex;                
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 30%;
     padding: 20px;
     background-color: #8e6003;
@@ -65,7 +69,6 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
-    color: #550303;
 }
 
 #about {
